@@ -1,0 +1,7 @@
+D:\Workspace\HomeWork\网络\网络通讯\Server\XServer\XServer\bin\Debug\XServer.exe.config
+D:\Workspace\HomeWork\网络\网络通讯\Server\XServer\XServer\bin\Debug\XServer.exe
+D:\Workspace\HomeWork\网络\网络通讯\Server\XServer\XServer\bin\Debug\XServer.pdb
+D:\Workspace\HomeWork\网络\网络通讯\Server\XServer\XServer\obj\Debug\XServer.csprojResolveAssemblyReference.cache
+D:\Workspace\HomeWork\网络\网络通讯\Server\XServer\XServer\obj\Debug\XServer.csproj.CoreCompileInputs.cache
+D:\Workspace\HomeWork\网络\网络通讯\Server\XServer\XServer\obj\Debug\XServer.exe
+D:\Workspace\HomeWork\网络\网络通讯\Server\XServer\XServer\obj\Debug\XServer.pdb
