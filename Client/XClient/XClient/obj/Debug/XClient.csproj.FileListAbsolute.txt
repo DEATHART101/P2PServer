@@ -1,7 +1,0 @@
-D:\Workspace\HomeWork\网络\网络通讯\Client\XClient\XClient\bin\Debug\XClient.exe.config
-D:\Workspace\HomeWork\网络\网络通讯\Client\XClient\XClient\bin\Debug\XClient.exe
-D:\Workspace\HomeWork\网络\网络通讯\Client\XClient\XClient\bin\Debug\XClient.pdb
-D:\Workspace\HomeWork\网络\网络通讯\Client\XClient\XClient\obj\Debug\XClient.csprojResolveAssemblyReference.cache
-D:\Workspace\HomeWork\网络\网络通讯\Client\XClient\XClient\obj\Debug\XClient.csproj.CoreCompileInputs.cache
-D:\Workspace\HomeWork\网络\网络通讯\Client\XClient\XClient\obj\Debug\XClient.exe
-D:\Workspace\HomeWork\网络\网络通讯\Client\XClient\XClient\obj\Debug\XClient.pdb
