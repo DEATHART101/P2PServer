@@ -28,12 +28,22 @@ namespace XClient
             m_serverScoekt.Connect(server_ep);
 
             // Success
-            byte[] recv_data = new byte[4096];
-            int recv_len = m_serverScoekt.Receive(recv_data);
-            Print(Encoding.ASCII.GetString(recv_data, 0, recv_len));
+            Print("已经连接至服务器");
+            while (true)
+            {
+                string send_string = Console.ReadLine();
+                if (send_string == "quit")
+                {
+                    break;
+                }
 
-            byte[] send_data = Encoding.ASCII.GetBytes("Hello to you too!");
-            m_serverScoekt.Send(send_data);
+                byte[] send_data = Encoding.ASCII.GetBytes(send_string);
+                m_serverScoekt.Send(send_data);
+
+                byte[] recv_data = new byte[4096];
+                int recv_len = m_serverScoekt.Receive(recv_data);
+                Print(Encoding.ASCII.GetString(recv_data, 0, recv_len));
+            }
 
             m_serverScoekt.Close();
             m_serverScoekt = null;
