@@ -20,6 +20,19 @@ namespace XServer
             }
         }
 
+        public QChatRoom Room
+        {
+            get
+            {
+                return m_chatRoom;
+            }
+
+            set
+            {
+                m_chatRoom = value;
+            }
+        }
+
         public QMember(string name, QChatRoom room)
         {
             this.m_name = name;

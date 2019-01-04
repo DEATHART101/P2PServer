@@ -45,6 +45,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QChatRoom.cs" />
+    <Compile Include="QExeption.cs" />
     <Compile Include="QMember.cs" />
     <Compile Include="QServer.cs" />
   </ItemGroup>
