@@ -25,4 +25,14 @@ namespace XServer
     {
 
     }
+
+    class QNotInRoomException : Exception
+    {
+
+    }
+
+    class QRoomEmptyException : Exception
+    {
+
+    }
 }

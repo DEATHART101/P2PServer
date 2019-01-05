@@ -37,6 +37,11 @@ namespace XServer
 
         public void DistributeData(byte[] data, Socket except)
         {
+            if (m_socketMembers.Count == 0)
+            {
+                throw new QRoomEmptyException();
+            }
+
             foreach (Socket socket in m_socketMembers)
             {
                 if (socket.GetHashCode() != except.GetHashCode())
