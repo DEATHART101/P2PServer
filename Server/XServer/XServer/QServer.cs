@@ -356,7 +356,7 @@ namespace XServer
 
             m_currentMember.Room.DistributeData(GetBytes(dist_string), m_currentSocket);
 
-            return string.Format("006 FILE TO:COUNT \"{0}\"", m_currentMember.Room.Members.Count - 1);
+            return string.Format("007 FILE TO:COUNT \"{0}\"", m_currentMember.Room.Members.Count - 1);
         }
 
         #endregion
