@@ -10,6 +10,8 @@ namespace QClient
     {
         static void Main(string[] args)
         {
+            QClient main = new QClient("166.111.140.14", 8000, 8001);
+            main.Run();
         }
     }
 }
